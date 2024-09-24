@@ -47,6 +47,7 @@ jupyterlab==4.2.3
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.2
 kiwisolver==1.4.5
+langchain-google-genai
 MarkupSafe==2.1.5
 matplotlib==3.9.1
 matplotlib-inline==0.1.7
