@@ -36,10 +36,10 @@ def embed_sentence(gemini_embedder, sentence):
 st.title("Beamed from Bengaluru episode 2: Tokenization and Embedding ")
 
 # Input Gemini API Key
-api_key = st.text_input("Enter your Gemini API key:", type="password")
+GOOGLE_API_KEY = st.text_input("Enter your Gemini API key:", type="password")
 
 # Ensure API key is provided
-if api_key:
+if GOOGLE_API_KEY:
     # User input for sentence to tokenize and embed
     sentence = st.text_input("Enter a sentence for tokenization and embedding:")
 
