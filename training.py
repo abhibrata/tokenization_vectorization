@@ -80,11 +80,3 @@ if api_key:
             st.warning("Please enter a sentence to embed.")
 else:
     st.warning("Please enter your Gemini API key to proceed.")
-
-# # Add file uploader to upload an image
-# uploaded_image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
-
-# # If an image is uploaded, display it on the page
-# if uploaded_image:
-#     image = Image.open(uploaded_image)
-#     st.image(image, caption="Uploaded Image", use_column_width=True)
